@@ -1,0 +1,1181 @@
+{
+  "pack": {
+    "name": "Liminal Industries",
+    "version": "1.19.3",
+    "author": "Appocryptha",
+    "minecraftVersion": "1.20.1",
+    "loader": "forge-47.4.13",
+    "manifestFileName": "Liminal Industries-1.19.3.zip",
+    "note": "The archive name says 1.19.3, but the manifest says Minecraft 1.20.1."
+  },
+  "mods": [
+    {
+      "name": "FTB Library (Forge)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Embeddium",
+      "author": "FiniteReality",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Snad",
+      "author": "TheRoBrit",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/snad",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Wan's Storage Shelves",
+      "author": "WanMine",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wans-storage-shelves",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FTB Quests (NeoForge)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Fresh Animations",
+      "author": "FreshLX",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/fresh-animations",
+      "kind": "Texture pack",
+      "notes": "Bundled texture pack entry."
+    },
+    {
+      "name": "Plushie Buddies",
+      "author": "subthy",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/plushie-buddies",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Balm",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/balm",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS Delight",
+      "author": "qinactuallyfound",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs-delight",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "Joy of Painting",
+      "author": "xerca0",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/joy-of-painting",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Underground Beacons",
+      "author": "Serilum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/underground-beacons",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Block of Sky",
+      "author": "LuminaSapphira",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/block-of-sky",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Tempad",
+      "author": "terrariumearth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/tempad",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create: Central Kitchen",
+      "author": "DragonsPlus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-central-kitchen",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Thermal Innovation",
+      "author": "TeamCoFH",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-innovation",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS Mekanism UNOFFICIAL",
+      "author": "ianm1647",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs-mekanism-unofficial",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "AzureLib",
+      "author": "AzureDoomC",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/azurelib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Inventory Sorter",
+      "author": "cpw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Moyai",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/moyai",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Yeetus Experimentus",
+      "author": "Sunekaer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/yeetusexperimentus",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Storage Drawers",
+      "author": "Texelsaur",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/storage-drawers",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Resourceful Config",
+      "author": "ThatGravyBoat",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-config",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "'Dustrial Decor",
+      "author": "BlueDuck",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/dustrial-decor",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Resource Pack Overrides",
+      "author": "Fuzs",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/resource-pack-overrides",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "CoFH Core",
+      "author": "TeamCoFH",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Ender IO",
+      "author": "crazypants_mc_the_second",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ender-io",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "BotaniaTubes",
+      "author": "MaxiusEden",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/botaniatubes",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Sophisticated Core",
+      "author": "P3pp3rF1y",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Actually Subtractions",
+      "author": "melncat",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/actually-subtractions",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Fairy Lights",
+      "author": "pau101",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fairy-lights",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Uppers",
+      "author": "vadis365",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/uppers",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS Botania",
+      "author": "Amygdaloideae",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs-botania",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "Almanac Lib",
+      "author": "frikinjay",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/almanac-lib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Just Enough Resources (JER)",
+      "author": "way2muchnoise",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Thermal Dynamics",
+      "author": "TeamCoFH",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Just Enough Items (JEI)",
+      "author": "mezz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Particular ✨ Reforged",
+      "author": "Project8gbDeRam",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/particular-reforged",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FastWorkbench",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastworkbench",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "EnderChests",
+      "author": "ShetiPhian",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/enderchests",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Table Top Craft (Forge)",
+      "author": "andrew0030",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/table-top-craft",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Thermal Cultivation",
+      "author": "TeamCoFH",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Resourceful Lib",
+      "author": "ThatGravyBoat",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "AI Improvements",
+      "author": "QueenOfMissiles",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ai-improvements",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "[ETF] Entity Texture Features - [Fabric & Forge]",
+      "author": "Traben",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Miner's Delight +",
+      "author": "soytutta",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/miners-delight-plus",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Corpse",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/corpse",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create: Copycats+",
+      "author": "Lysine",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/copycats",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FancyMenu",
+      "author": "Keksuccino",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fancymenu",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Lexiconfig",
+      "author": "CodinGlitch",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lexiconfig",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Eidolon : Repraised",
+      "author": "Alexth99",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/eidolon-repraised",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Supplementaries",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create: Enchantment Industry",
+      "author": "DragonsPlus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Controlling",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Rhino",
+      "author": "LatvianModder",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rhino",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS Thermal",
+      "author": "LatvianModder",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs-thermal",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "Jade 🔍",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Camera Mod",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/camera-mod",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Wooden Hopper",
+      "author": "thecech12",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/wooden-hopper",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "[LEGACY] Drip Sounds (Forge)",
+      "author": "PieKing1215",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/waterdripsound",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "[EMF] Entity Model Features [Fabric & Forge]",
+      "author": "Traben",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/entity-model-features",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Botania",
+      "author": "Vazkii",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/botania",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Amendments",
+      "author": "plantspookable",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/amendments",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "AntiBlocksReChiseled",
+      "author": "manmaed",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/antiblocksrechiseled",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Nyf's Spiders",
+      "author": "Nyfaria",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/nyfs-spiders",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Exposure",
+      "author": "mortuusars",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/exposure",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FTB XMod Compat",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "JamLib",
+      "author": "jamalam360",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jamlib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Architectury API",
+      "author": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Simple Voice Chat",
+      "author": "henkelmax",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Liminal Industries - Poolrooms Additions",
+      "author": "markaabo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/liminal-industries-poolrooms-additions",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Chimes",
+      "author": "CicadaBluw",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chimes",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Let Me Despawn",
+      "author": "frikinjay",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/let-me-despawn",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Applied Energistics 2",
+      "author": "thetechnici4n",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Inventory Essentials",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-essentials",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "ShetiPhianCore",
+      "author": "ShetiPhian",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/shetiphiancore",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Blueprint",
+      "author": "TeamAbnormals",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/blueprint",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Just Enough Immersive Multiblocks",
+      "author": "aronson_1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-immersive-multiblocks",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "GuideME",
+      "author": "shartte",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/guideme",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create: Escalated",
+      "author": "rbasamoyai",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-escalated",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Immersive Engineering",
+      "author": "BluSunrize",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/immersive-engineering",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Fusion (Connected Textures)",
+      "author": "SuperMartijn642",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Corpse x Curios API Compat",
+      "author": "Project8gbDeRam",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/corpse-x-curios-api-compat",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Lychee (Neo/Forge)",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lychee",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "MrCrayfish's Furniture Mod: Refurbished",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS",
+      "author": "LatvianModder",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs",
+      "kind": "Mod",
+      "notes": "Custom scripting framework; the pack uses overrides/kubejs for recipes, loot, items, blocks, textures, and other tweaks."
+    },
+    {
+      "name": "Curios API (Forge/NeoForge)",
+      "author": "TheIllusiveC4",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/curios",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "ewewukek's Musket Mod",
+      "author": "ewewukek",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ewewukeks-musket-mod",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Simple Discord Rich Presence (Forge / Fabric)",
+      "author": "Sunekaer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Visuality: Reforged",
+      "author": "DragonsPlus",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/visuality-reforged",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Mekanism",
+      "author": "bradyaidanc",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mekanism",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Atmospheric Paintings Pack for FORGE and FABRIC",
+      "author": "JestemZbychu",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jess-painting-pack",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Kiwi 🥝 (Neo/Forge)",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kiwi",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Cloth Config API (Fabric/Forge/NeoForge)",
+      "author": "shedaniel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "TerraBlender (Forge)",
+      "author": "TheAdubbz",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/terrablender",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Thermal Expansion",
+      "author": "TeamCoFH",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-expansion",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create Low-Heated",
+      "author": "zeh_maria",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-low-heated",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Fast Leaf Decay",
+      "author": "olafskiii",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Flintl0cks - Musket Mod Overhaul",
+      "author": "Scarecrow01",
+      "url": "https://www.curseforge.com/minecraft/texture-packs/flintl0cks",
+      "kind": "Texture pack",
+      "notes": "Bundled texture pack entry."
+    },
+    {
+      "name": "SmartBrainLib (Forge/Fabric/Quilt)",
+      "author": "Scimiguy",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/smartbrainlib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Chalk",
+      "author": "mortuusars",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/chalk",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Sophisticated Backpacks",
+      "author": "P3pp3rF1y",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "End Remastered [NeoForge/Fabric]",
+      "author": "jack_bagel",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/endremastered",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "RightClickHarvest Supplementaries Compat",
+      "author": "jamalam360",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rightclickharvest-supplementaries-compat",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS Create",
+      "author": "LatvianModder",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs-create",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "Jade Addons (Neo/Forge)",
+      "author": "Snownee",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/jade-addons",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Konkrete",
+      "author": "Keksuccino",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Time in a bottle [FORGE\\NEOFORGE\\FABRIC]",
+      "author": "MangoRage",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-universal",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Neapolitan",
+      "author": "TeamAbnormals",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/neapolitan",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Thermal Foundation",
+      "author": "TeamCoFH",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Searchables",
+      "author": "Jaredlll08",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Mouse Tweaks",
+      "author": "YaLTeR",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Crafting Tweaks",
+      "author": "BlayTheNinth",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Eccentric Tome",
+      "author": "EccentricVamp",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/eccentric-tome",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Mantle",
+      "author": "mDiyo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/mantle",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Almost Unified",
+      "author": "AlmostReliable",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/almost-unified",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Construction Wand",
+      "author": "ThetaDev",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/construction-wand",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "KubeJS EnderIO",
+      "author": "Relentless",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kubejs-enderio",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "Brewin' And Chewin'",
+      "author": "lumpazl",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/brewin-and-chewin",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FastFurnace",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fastfurnace",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "BucketLib",
+      "author": "thecech12",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/bucketlib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Framework",
+      "author": "MrCrayfish",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framework",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FTB Teams (NeoForge)",
+      "author": "FTB",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Just Enough Archaeology",
+      "author": "LobsterJonn",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/just-enough-archaeology",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create ewewukek's Muskets",
+      "author": "TRlNlTlTE",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create-ewewukeks-muskets",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "FerriteCore ((Neo)Forge)",
+      "author": "malte0811",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "AllTheLeaks (Memory Leak Fix)",
+      "author": "Uncandango",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/alltheleaks",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Farmer's Delight",
+      "author": "vectorwing",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create",
+      "author": "simibubi",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/create",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Collective",
+      "author": "Serilum",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/collective",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Packet Fixer",
+      "author": "TonimatasDEV",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Tinkers Construct",
+      "author": "mDiyo",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Placebo",
+      "author": "Shadows_of_Fire",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/placebo",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Fast Paintings",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/fast-paintings",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "BaguetteLib",
+      "author": "Project8gbDeRam",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/baguettelib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Melody",
+      "author": "Keksuccino",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/melody",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "AppleSkin",
+      "author": "squeek502",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Berry Good",
+      "author": "TeamAbnormals",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/berry-good",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "GeckoLib",
+      "author": "Gecko",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "RightClickHarvest",
+      "author": "jamalam360",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/rightclickharvest",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Kotlin for Forge",
+      "author": "thedarkcolour",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Create Crafts & Additions",
+      "author": "MRHminer",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/createaddition",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Decorative Blocks",
+      "author": "stohun",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/decorative-blocks",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "LootJS: KubeJS Addon",
+      "author": "Lytho",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/lootjs",
+      "kind": "Mod",
+      "notes": "KubeJS addon / integration mod."
+    },
+    {
+      "name": "Ceramic Bucket",
+      "author": "thecech12",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ceramic-bucket",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "CFM Refurbished: Watt About Power?",
+      "author": "Tr3yMix",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cfm-wap",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Simple Voice Radio",
+      "author": "CodinGlitch",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-radio",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Patchouli",
+      "author": "Vazkii",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
+      "kind": "Mod",
+      "notes": ""
+    },
+    {
+      "name": "Moonlight Lib",
+      "author": "MehVahdJukaar",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/selene",
+      "kind": "Mod",
+      "notes": ""
+    }
+  ],
+  "custom": {
+    "kubejs": {
+      "present": true,
+      "scriptCount": 68,
+      "clientScripts": [
+        "client_scripts/jei_hide.js"
+      ],
+      "serverScripts": [
+        "server_scripts/1.17.js",
+        "server_scripts/1.19.js",
+        "server_scripts/actuallyadditions_laser.js",
+        "server_scripts/ae2.js",
+        "server_scripts/alloying.js",
+        "server_scripts/antimater.js",
+        "server_scripts/arc_furnace.js",
+        "server_scripts/backpacks.js",
+        "server_scripts/block_interacting.js",
+        "server_scripts/block_ticking.js",
+        "server_scripts/books.js",
+        "server_scripts/botania.js",
+        "server_scripts/chalk.js",
+        "server_scripts/concrete_tile.js",
+        "server_scripts/cooking.js",
+        "server_scripts/create_machine_deploying.js",
+        "server_scripts/dirt.js",
+        "server_scripts/dragons.js",
+        "server_scripts/eidolon.js",
+        "server_scripts/empowerer.js",
+        "server_scripts/ender_chests.js",
+        "server_scripts/enrichment.js",
+        "server_scripts/extruder.js",
+        "server_scripts/eyes.js",
+        "server_scripts/fiberboard.js",
+        "server_scripts/immersive_tool_nerf.js",
+        "server_scripts/item_nerfs.js",
+        "server_scripts/keg.js",
+        "server_scripts/light_nerf.js",
+        "server_scripts/log_replacement.js",
+        "server_scripts/loot_modification.js",
+        "server_scripts/material_nerfs.js",
+        "server_scripts/mekanism_machines.js",
+        "server_scripts/metal_furniture.js",
+        "server_scripts/metal_working.js",
+        "server_scripts/misc_item_gen.js",
+        "server_scripts/multiservo_press.js",
+        "server_scripts/party_popper.js",
+        "server_scripts/power.js",
+        "server_scripts/qol.js",
+        "server_scripts/radio.js",
+        "server_scripts/reality_frame.js",
+        "server_scripts/rightclickevents.js",
+        "server_scripts/saplings.js",
+        "server_scripts/sculk_scrubber.js",
+        "server_scripts/sequenced_assembly.js",
+        "server_scripts/spores.js",
+        "server_scripts/steel_cauldron.js",
+        "server_scripts/storageshelves.js",
+        "server_scripts/tags.js",
+        "server_scripts/tconstruct_slime.js",
+        "server_scripts/thermal_machine_fix.js",
+        "server_scripts/tier1.js",
+        "server_scripts/tier2.js",
+        "server_scripts/tier3.js",
+        "server_scripts/tier4.js",
+        "server_scripts/tier5.js",
+        "server_scripts/time_in_a_bottle.js",
+        "server_scripts/tinker_changes.js",
+        "server_scripts/unbreakable.js",
+        "server_scripts/unbreakable_taglist.js",
+        "server_scripts/wooden_furniture.js"
+      ],
+      "startupScripts": [
+        "startup_scripts/block_modification.js",
+        "startup_scripts/emissive_textures.js",
+        "startup_scripts/environment.js",
+        "startup_scripts/init.js",
+        "startup_scripts/pool_init.js"
+      ],
+      "summary": "KubeJS is included, and this pack uses it heavily for custom recipe, loot, item, block, tag, and behavior changes."
+    },
+    "resourcepacks": [
+      {
+        "name": "Liminal Resources",
+        "summary": "Custom resource pack with overrides for mod and vanilla assets.",
+        "namespaces": [
+          "actuallyadditions",
+          "brewinandchewin",
+          "create",
+          "enderio",
+          "endrem",
+          "farmersdelight",
+          "immersiveengineering",
+          "kubejs",
+          "minecraft",
+          "thermal",
+          "visuality"
+        ],
+        "sampleFiles": [
+          "assets/create/textures/block/fan_blades.png",
+          "assets/enderio/textures/block/soul_engine_front.png",
+          "assets/farmersdelight/textures/item/flint_knife.png",
+          "assets/minecraft/..."
+        ]
+      },
+      {
+        "name": "Flintl0cks_v1.2.zip",
+        "summary": "Bundled resource pack archive."
+      },
+      {
+        "name": "FreshAnimations_v1.9.2.zip",
+        "summary": "Bundled resource pack archive for Fresh Animations."
+      }
+    ],
+    "patchouliBooks": [
+      "reality_frame",
+      "summoning"
+    ],
+    "configOverrideCount": 592,
+    "notes": [
+      "Patchouli books are customized too, including reality_frame and summoning.",
+      "The custom resource pack touches namespaces like create, enderio, endrem, farmersdelight, immersiveengineering, thermal, visuality, and minecraft."
+    ]
+  },
+  "counts": {
+    "totalEntries": 148,
+    "texturePacks": 2,
+    "modsOnly": 146,
+    "kubejsScripts": 68,
+    "patchouliBooks": 2,
+    "resourcepackEntries": 3,
+    "resourcepackArchives": 2
+  }
+}
