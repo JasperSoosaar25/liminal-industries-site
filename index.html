@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liminal Industries mod list</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero card">
+      <div>
+        <p class="eyebrow">Minecraft modpack audit</p>
+        <h1 id="packTitle">Liminal Industries</h1>
+        <p id="packMeta" class="muted"></p>
+        <p id="packNote" class="note"></p>
+      </div>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <div>
+          <h2>Custom and modified content</h2>
+          <p class="muted">This is where the pack-specific stuff lives: KubeJS, resource packs, Patchouli books, and overrides.</p>
+        </div>
+      </div>
+      <div class="custom-grid" id="customGrid"></div>
+    </section>
+
+    <section class="card">
+      <div class="toolbar">
+        <div>
+          <h2>Included mods and packs</h2>
+          <p class="muted">Search, then use the filters to narrow things down.</p>
+        </div>
+        <div class="controls">
+          <input id="search" type="search" placeholder="Search mod name, author, note..." />
+          <select id="filter">
+            <option value="all">All entries</option>
+            <option value="Mod">Mods</option>
+            <option value="Texture pack">Texture packs</option>
+          </select>
+        </div>
+      </div>
+      <div id="modList" class="mod-list"></div>
+    </section>
+  </main>
+
+  <script>
+    let DATA = null;
+
+    const esc = (s) => String(s ?? '')
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;');
+
+    function badge(text, cls='') {
+      return `<span class="badge ${cls}">${esc(text)}</span>`;
+    }
+
+    function renderStats(data) {
+      const stats = [
+        ['Listed entries', data.counts.totalEntries],
+        ['Mods', data.counts.modsOnly],
+        ['Texture packs', data.counts.texturePacks],
+        ['KubeJS scripts', data.counts.kubejsScripts],
+      ];
+      document.getElementById('stats').innerHTML = stats.map(([label, value]) => `
+        <div class="stat">
+          <div class="stat-value">${esc(value)}</div>
+          <div class="stat-label">${esc(label)}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderCustom(data) {
+      const c = data.custom;
+      const cards = [];
+      cards.push(`
+        <article class="mini-card">
+          <h3>KubeJS</h3>
+          <p>${esc(c.kubejs.summary)}</p>
+          <p class="muted small">${esc(c.kubejs.scriptCount)} .js scripts total: ${esc(c.kubejs.clientScripts.length)} client, ${esc(c.kubejs.serverScripts.length)} server, ${esc(c.kubejs.startupScripts.length)} startup.</p>
+          <details>
+            <summary>Show script files</summary>
+            <div class="split-columns">
+              <div><strong>Client</strong><ul>${c.kubejs.clientScripts.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
+              <div><strong>Startup</strong><ul>${c.kubejs.startupScripts.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
+              <div><strong>Server</strong><ul>${c.kubejs.serverScripts.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
+            </div>
+          </details>
+        </article>
+      `);
+
+      const rp = c.resourcepacks.map(p => `
+        <article class="mini-card">
+          <h3>${esc(p.name)}</h3>
+          <p>${esc(p.summary)}</p>
+          ${p.namespaces ? `<p class="muted small">Custom namespaces: ${esc(p.namespaces.join(', '))}</p>` : ''}
+          ${p.sampleFiles ? `<details><summary>Show sample overridden files</summary><ul>${p.sampleFiles.map(x => `<li>${esc(x)}</li>`).join('')}</ul></details>` : ''}
+        </article>
+      `).join('');
+      cards.push(rp);
+
+      cards.push(`
+        <article class="mini-card">
+          <h3>Patchouli books</h3>
+          <p class="muted small">${esc(c.patchouliBooks.length)} custom books: ${esc(c.patchouliBooks.join(', '))}</p>
+          <p>${esc(c.notes[0])}</p>
+          <p class="muted small">Config overrides: ${esc(c.configOverrideCount)} files in overrides/config/.</p>
+        </article>
+      `);
+
+      document.getElementById('customGrid').innerHTML = cards.join('');
+    }
+
+    function renderMods(data) {
+      const list = document.getElementById('modList');
+      const search = document.getElementById('search').value.trim().toLowerCase();
+      const filter = document.getElementById('filter').value;
+      const filtered = data.mods.filter(m => {
+        const blob = `${m.name} ${m.author} ${m.kind} ${m.notes}`.toLowerCase();
+        if (filter !== 'all' && m.kind !== filter) return false;
+        if (search && !blob.includes(search)) return false;
+        return true;
+      });
+      list.innerHTML = filtered.map(m => `
+        <article class="mod-row">
+          <div class="mod-main">
+            <div class="mod-title-row">
+              <a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer" class="mod-title">${esc(m.name)}</a>
+              ${badge(m.kind, m.kind === 'Texture pack' ? 'texture' : 'mod')}
+              ${m.name === 'KubeJS' ? badge('custom scripting', 'accent') : ''}
+            </div>
+            <div class="muted small">by ${esc(m.author || 'Unknown')}</div>
+            ${m.notes ? `<div class="note small">${esc(m.notes)}</div>` : ''}
+          </div>
+        </article>
+      `).join('') || '<p class="muted">No matches.</p>';
+    }
+
+    async function boot() {
+      const res = await fetch('data.json');
+      DATA = await res.json();
+      document.getElementById('packTitle').textContent = DATA.pack.name;
+      document.getElementById('packMeta').textContent = `${DATA.pack.minecraftVersion} • ${DATA.pack.loader} • pack version ${DATA.pack.version} • authored by ${DATA.pack.author}`;
+      document.getElementById('packNote').textContent = DATA.pack.note;
+      renderStats(DATA);
+      renderCustom(DATA);
+      renderMods(DATA);
+      document.getElementById('search').addEventListener('input', () => renderMods(DATA));
+      document.getElementById('filter').addEventListener('change', () => renderMods(DATA));
+    }
+    boot();
+  </script>
+</body>
+</html>
